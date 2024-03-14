@@ -18,4 +18,16 @@
 ##### Points 
 
 1.it is like a while loop runs until the condition is true .
-![alt text](<Screenshot 2024-03-14 235946.png>)
+2. condition must be given for when the recursion is stop 
+
+    example:
+       int func(int n){
+         if(n==1){
+            return 1;    ----> This a condition
+         }
+         return n+func(n-1);
+       }
+       int main(){
+         int ans=func(5);
+         cout<<ans;
+       }
