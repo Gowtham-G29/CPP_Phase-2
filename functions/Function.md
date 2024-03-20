@@ -21,3 +21,8 @@
    2.We pass the values ,not variables themselves .Local variable are created in functions which are destroyed on returning from them.
 
    3.function can be called from any other functions or main function.
+
+   4.Function allows the modularization ofa program.
+     separate code into logical self_contained units.
+     These units can be reused.
+      
