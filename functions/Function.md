@@ -30,7 +30,9 @@
 
   The compiler must 'Know ' about a function before it is used.
   it is used for larger programs No problem in small programs.
+
   ##### syntax:
+
    int function_name(); // prototype
 
    int fuction_name(int a){
