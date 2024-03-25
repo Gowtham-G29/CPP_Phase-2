@@ -25,4 +25,14 @@
    4.Function allows the modularization ofa program.
      separate code into logical self_contained units.
      These units can be reused.
-      
+
+#### Function Prototypes
+
+  The compiler must 'Know ' about a function before it is used.
+  it is used for larger programs No problem in small programs.
+  ##### syntax:
+   int function_name(); // prototype
+
+   int fuction_name(int a){
+    //statement
+   }
